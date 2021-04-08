@@ -1,0 +1,61 @@
+.container {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.formContainer {
+  padding: 5%;
+  color: hsla(12, 55%, 55%, 1);
+  width: 85%;
+}
+
+.input {
+  width: 100%;
+  padding: 3px;
+  border-radius: 5px;
+  border: none;
+  background: hsla(0, 0%, 25%, 1);
+  margin-bottom: 10px;
+  color: white;
+  box-shadow: 0px 0px 2px 2px hsla(0, 0%, 18%, 1);
+}
+
+.dropdown {
+  background: hsla(0, 0%, 28%, 1);
+  padding: 3px;
+  color: white;
+  box-shadow: 0px 0px 2px 2px hsla(0, 0%, 20%, 1);
+  border: none;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background: hsla(12, 80%, 55%, 1);
+  color: white;
+}
+
+.label {
+  margin: 0;
+}
+
+.nav-link {
+  color: hsla(12, 55%, 55%, 1) !important;
+  background: hsla(0, 0%, 17%, 1) !important;
+  width: 50% !important;
+  text-align: center !important;
+  border: none !important;
+  font-weight: bold !important;
+}
+
+.nav-link.active {
+  background: hsla(0, 0%, 20%, 1) !important;
+}
+
+.alert-danger {
+  border-radius: 5px;
+}
